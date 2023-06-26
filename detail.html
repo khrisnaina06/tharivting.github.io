@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="library/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style/main.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+	<title>Tharivt | Homepage</title>
+</head>
+<body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
+
+	<header>
+		<nav class="main-nav">
+			<div class="brand text-main">
+				<a href="#">
+					<img src="assets/icons/tharivt.jpg" style="height: 40%; width: 40%;">
+				</a>
+			</div>
+			<div class="links">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+						  <li><a href="categories.html">Collection</a></li>
+					<li><a href="#contact">Contacts</a></li>
+				</ul>
+			</div>
+			<div class="icon-for-user">
+				<a href="#">
+					<img src="assets/icons/shop-bag.svg" alt="person">
+					
+				</a>
+			</div>
+			<div class="menu">
+				<img src="assets/icons/menu.svg" alt="menu">
+			</div>
+		</nav>
+</header>
+<section >
+<div class="flex-box">
+	<div class="left">
+					<h2 class="text-main">TREND COLLECTION</h2>
+				<div class="big-img">
+					<img src="img/p11.jpeg" onclick="enlargeImage(this)">
+				</div>	
+	
+			
+		<div class="images">
+			<div class="small-img">
+				<img src="img/p11.jpeg" onclick="showImg(this.src)">
+			</div>
+			<div class="small-img">
+				<img src="img/p10.jpeg" onclick="showImg(this.src)">
+			</div>
+			<div class="small-img">
+				<img src="img/p12.jpeg" onclick="showImg(this.src)">
+			</div>
+			<div class="small-img">
+				<img src="img/p13.jpeg" onclick="showImg(this.src)">
+			</div>
+		</div>
+	</div>
+
+	<div class="right">	
+		<div class="pname">Celana Formal</div>		
+		<div class="price">Rp 45.000</div>
+	<a>🌟 Promosi Khusus! Tampil Trendi dengan Celana Panjang Hitam! 🌟
+	</br>
+		🖤 Warna Hitam: Elegan dan Selalu In.
+	</br>
+		👖 Fleksibel untuk Gaya Anda.
+	</br>
+		💼 Kenyamanan Sepanjang Hari.
+	</br>
+		💥 Kualitas Premium, Harga Terjangkau.
+	</br>
+		🎉 Penawaran Spesial Tersedia.
+	</br></br>
+		Dapatkan celana panjang bahan hitam kami sekarang!</a></br></br>
+		<div class="button-container">
+		<button class="button"><a href="https://wa.me/085159455081">Buy Now</button>
+			<style>
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+.button a {
+	color: #fff;
+}
+				.button:hover {
+				  background-color: #333;
+				}
+				
+				</style>
+				
+		</div>
+<script>
+	let bigImg = document.querySelector('.big-img img');
+	function showImg(pic){
+		bigImg.src = pic;
+	}
+</script>
+</section>	
+
+<footer id="contact">
+	<div class="container">
+		<div class="footer-content row mb-4">
+			<div class="footer-brand col-12 col-sm-12 col-md-4 col-lg-4">
+				<div>
+					<h1 class="text-main">THARIVTING</h1>
+					<div class="footer-logo-content">
+					<a href="https://www.instagram.com/khrisnaina06/" class="ig-icon">
+						<img src="assets/images/instagram.gif" alt="ig" class="img-fluid" >
+					</a> 
+					<a href="https://github.com/khrisnaina06/" class="ig-icon">
+						<img src="assets/images/github.png" alt="ig" class="img-fluid" >
+					</a>	
+					<a href="https://www.facebook.com/muhammad.khrisnafaisalzuhri" class="ig-icon">
+						<img src="assets/images/facebook.png" alt="ig" class="img-fluid" >
+					</a>	
+				</div>
+				</div>
+			</div>
+
+					<div class="footer-item col-12 col-sm-12 col-md-4">
+						<div>
+							<div class="footer-item-content">
+								<h3 class="text-main">Business</h3>
+								<p><a href="mailto: muhammadkhrisna12@gmail.com">muhammadkhrisna12@gmail.com</a></p>
+								<p><a href="https://wa.me/085159455081">085159455081</a></p>
+								<p><a href="https://goo.gl/maps/TbRrx958TXxDcFX1A">Kel.Telaga asih, Cikarang barat</a></p>
+							</div>
+						</div>
+					</div>
+
+					<div class="footer-item col-12 col-sm-12 col-md-4">
+						<div>
+							<div class="footer-item-content">
+								<h3 class="text-main">Social</h3>
+								
+								<p style="font-style: italic; text-align: justify;">“Let’s give used clothes a second chance to shine and reduce our
+									impact on the environment. By embracing pre-loved
+									clothing, we not only reduce waste but also add a unique touch to our personal style. So let’s revive our wardrobe
+									with
+									second-hand finds and make a conscious effort towards a sustainable future.”</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="copyright-section border-top">
+			<div class="row">
+				<div class="col-12">
+					<div class="copyright-content text-center mt-4">
+						<p class="text-second"> Tharivting Copyright &copy; 2023 All Rights Reserved</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+					
+					
+						<!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+						<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+						<script src="library/bootstrap/js/bootstrap.min.js"></script> -->
+						<script src="script/index.js"></script>
+						<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+						<script>
+							AOS.init();
+						</script>
+					</body>
+					</html>	
